@@ -22,3 +22,5 @@ Der er selvfølgelig en lang række rules som giver mening at have med, men jeg 
 ## Profiling
 
 Jeg har kørt profiling på et [projekt vedrørende sets](https://github.com/MartinH5/ProgrammingWithSets/), for at finde ud af, hvad der skaber eventuelle forsinkelser. 
+
+[Profiling]:https://github.com/MartinH5/CodeAnalysis/blob/master/Udklip.PNG "Profiling"
