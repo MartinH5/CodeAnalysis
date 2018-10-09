@@ -23,4 +23,5 @@ Der er selvfølgelig en lang række rules som giver mening at have med, men jeg 
 
 Jeg har kørt profiling på et [projekt vedrørende sets](https://github.com/MartinH5/ProgrammingWithSets/), for at finde ud af, hvad der skaber eventuelle forsinkelser. 
 
-[Profiling]:https://github.com/MartinH5/CodeAnalysis/blob/master/Udklip.PNG "Profiling"
+![Profiling]:https://raw.githubusercontent.com/MartinH5/CodeAnalysis/master/Udklip.PNG "Profiling"
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
