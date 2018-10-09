@@ -1,0 +1,246 @@
+C:\Users\Mart_>C:\pmd-bin-6.8.0\bin\pmd.bat -d C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project -R rulesets/java/quickstart.xml -f text
+okt. 09, 2018 8:09:59 PM net.sourceforge.pmd.PMD processFiles
+WARNING: This analysis could be faster, please consider using Incremental Analysis: https://pmd.github.io/pmd-6.8.0/pmd_userdocs_incremental_analysis.html
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:8:   Avoid unused imports such as 'com.mongodb.BasicDBObject'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:10:  Avoid unused imports such as 'com.mongodb.client.FindIterable'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:11:  Avoid unused imports such as 'com.mongodb.client.MongoCollection'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:12:  Avoid unused imports such as 'com.mongodb.client.MongoDatabase'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:13:  Avoid unused imports such as 'java.util.ArrayList'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:14:  Avoid unused imports such as 'java.util.List'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:15:  Avoid unused imports such as 'org.bson.Document'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:21:  All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:25:  Avoid unnecessary constructors - the compiler will generate these for you
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:25:  Document empty constructor
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:30:  Singleton is not thread safe
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:39:  Avoid returning from a finally block
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBConnection.java:44:  Avoid unused local variables such as 'm'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:27:   Perhaps 'connection' could be replaced by a local variable.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:28:   Possible unsafe assignment to a non-final static field in a constructor.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:36:   Avoid unused local variables such as 'dbAcess'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:57:   Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:77:   Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:98:   Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:99:   The local variable name 'CitiesMentioned' doesn't match '[a-z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:120:  Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:152:  Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:164:  Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:180:  Avoid unused local variables such as 'doc'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:203:  Avoid unused local variables such as 'collection2'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:242:  Avoid unused local variables such as 'docs3'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBDataAcess.java:247:  Avoid unused local variables such as 'indexes'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBImportData.java:25:  Perhaps 'connection' could be replaced by a local variable.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBImportData.java:26:  Possible unsafe assignment to a non-final static field in a constructor.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBImportData.java:35:  Avoid unused local variables such as 'mongoImport'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBImportData.java:42:  Avoid unused local variables such as 'collection'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBImportData.java:54:  Avoid unused local variables such as 'count'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MongoDBImportData.java:62:  Avoid empty catch blocks
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\MySQLConnection.java:12:    All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\Neo4jConnection.java:11:    Avoid unused imports such as 'org.neo4j.driver.v1.Record'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\Neo4jConnection.java:12:    Avoid unused imports such as 'org.neo4j.driver.v1.Session'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\Neo4jConnection.java:13:    Avoid unused imports such as 'org.neo4j.driver.v1.StatementResult'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\Neo4jConnection.java:19:    All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\Neo4jConnection.java:19:    The utility class name 'Neo4jConnection' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\com\mycompany\gutenbergproject\connections\Neo4jConnection.java:27:    Singleton is not thread safe
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\AuthorBook.java:14:
+Use one line for each declaration, it enhances code readability.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\BookCities.java:15:
+Avoid unused private fields such as 'bookName'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\BookCities.java:15:
+Perhaps 'bookName' could be replaced by a local variable.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\BookCities.java:16:
+Avoid unused private fields such as 'cities'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\BookCities.java:16:
+Perhaps 'cities' could be replaced by a local variable.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\BookCity.java:14:
+Use one line for each declaration, it enhances code readability.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\entities\BookCity.java:15:
+Use one line for each declaration, it enhances code readability.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\interfaces\IQueries.java:18:
+Unnecessary modifier 'public' on method 'getAllBooks': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\interfaces\IQueries.java:20:
+Unnecessary modifier 'public' on method 'getBooksMentioningCity': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\interfaces\IQueries.java:23:
+Unnecessary modifier 'public' on method 'getAllCities': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\interfaces\IQueries.java:26:
+The method parameter name 'Author' doesn't match '[a-z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\interfaces\IQueries.java:26:
+Unnecessary modifier 'public' on method 'getCitiesRelatedtoAuthor': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\interfaces\IQueries.java:28:
+Unnecessary modifier 'public' on method 'getBooksNearCoords': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:31:
+Perhaps 'connection' could be replaced by a local variable.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:32:
+Possible unsafe assignment to a non-final static field in a constructor.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:40:
+Avoid unused local variables such as 'connection'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:50:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:51:
+Avoid unused local variables such as 'connection'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:75:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:76:
+Avoid unused local variables such as 'connection'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:107:
+Avoid unused local variables such as 'bookCities'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:118:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:119:
+Avoid unused local variables such as 'connection'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:141:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:142:
+Avoid unused local variables such as 'connection'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:178:
+This for loop can be replaced by a foreach loop
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:186:
+Avoid unused private methods such as 'getRelations()'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:186:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MongoQueries.java:189:
+Consider simply returning the value vs storing it in local variable 'relations'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:19:
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:34:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:36:
+Ensure that resources like this Connection object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:37:
+Ensure that resources like this Statement object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:38:
+Ensure that resources like this ResultSet object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:68:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:70:
+Ensure that resources like this Connection object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:71:
+Ensure that resources like this Statement object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:72:
+Ensure that resources like this ResultSet object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:93:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:95:
+Ensure that resources like this Connection object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:96:
+Ensure that resources like this Statement object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:97:
+Ensure that resources like this ResultSet object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:118:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:120:
+Ensure that resources like this Connection object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:121:
+Ensure that resources like this Statement object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\MySQLQueries.java:122:
+Ensure that resources like this ResultSet object are closed after use
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\Neo4jQueries.java:23:
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\Neo4jQueries.java:23:
+The utility class name 'Neo4jQueries' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\Neo4jQueries.java:25:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\Neo4jQueries.java:42:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\Neo4jQueries.java:59:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\Neo4jQueries.java:76:
+Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:8:
+An empty statement (semicolon) not part of a loop
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:26:        All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:26:        The utility class name 'QueryInterface' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:28:        Unnecessary modifier 'static' on enum 'DBChoice': nested enums are implicitly static
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:34:        Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:41:        'catch' branch identical to 'SQLException' branch
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:55:        Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:73:        Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\main\java\queries\QueryInterface.java:90:        Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\RunCucumberTest.java:1:       Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\Stepdefs.java:1:
+Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\Stepdefs.java:3:
+Avoid unused imports such as 'cucumber.api.PendingException'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\Stepdefs.java:4:
+Avoid unused imports such as 'cucumber.api.java.en.Given'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\Stepdefs.java:5:
+Avoid unused imports such as 'cucumber.api.java.en.When'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\Stepdefs.java:6:
+Avoid unused imports such as 'cucumber.api.java.en.Then'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\BDDTests\Stepdefs.java:7:
+Avoid unused imports such as 'org.junit.Assert'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\CommonTest.java:6:
+Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\CommonTest.java:17:
+Avoid unused imports such as 'queries.QueryInterface.DBChoice.DB_MYSQL'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:6:        Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:24:       Avoid unnecessary constructors - the compiler will generate these for you
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:24:       Document empty constructor
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:28:       Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:33:       Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:38:       Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\FunctionalTest.java:47:       Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\MongoQueryTest.java:6:        Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\MongoQueryTest.java:14:       Avoid unused imports such as 'org.junit.Ignore'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\MySQLIT.java:6:
+Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\MySQLIT.java:25:
+Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\MySQLIT.java:31:
+Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\MySQLIT.java:37:
+Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\Neo4jIT.java:6:
+Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\Neo4jIT.java:15:
+Avoid unused imports such as 'org.junit.Ignore'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\Neo4jIT.java:62:
+Avoid unused local variables such as 'index'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\Neo4jIT.java:149:
+Avoid unused local variables such as 'index'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:1:
+Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:13:
+Avoid unused imports such as 'com.mycompany.gutenbergproject.connections.MongoDBConnection'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:27:
+Avoid unnecessary constructors - the compiler will generate these for you
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:27:
+Document empty constructor
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:39:
+Avoid unused local variables such as 'bookCount'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:45:
+The local variable name 'DBobject' doesn't match '[a-z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\NoSQLIT.java:63:
+Consider simply returning the value vs storing it in local variable 'db'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\PerformanceTest.java:6:       Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\TDDTests\PerformanceTest.java:19:      Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:6:  Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:9:  Avoid unused imports such as 'org.junit.Before'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:20: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:20: The utility class name 'MYSQL_performanceTest' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:32: Avoid unused local variables such as 'myResults'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:35: Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\MYSQL_performanceTest.java:35: The static method name 'MySqlPerformance' doesn't match '[a-z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:6:  Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:9:  Avoid unused imports such as 'org.junit.Before'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:10: Avoid unused imports such as 'org.junit.runner.RunWith'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:11: Avoid unused imports such as 'org.junit.runners.Parameterized'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:18: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:18: The utility class name 'Mongo_performanceTest' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:30: Avoid unnecessary constructors - the compiler will generate these for you
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:30: Document empty constructor
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:35: Avoid unused local variables such as 'myResults'.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:38: Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Mongo_performanceTest.java:38: The static method name 'MongoPerformance' doesn't match '[a-z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Neo4J_performanceTest.java:6:  Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Neo4J_performanceTest.java:16: The class name 'Neo4J_performanceTest' doesn't match '[A-Z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Neo4J_performanceTest.java:25: Avoid using implementation types like 'ArrayList'; use the interface instead
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Neo4J_performanceTest.java:25: The instance method name 'Neo4JPerformance' doesn't match '[a-z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\Neo4J_performanceTest.java:60: Document empty method body
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\PerformanceMainTest.java:6:    Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\PerformanceMainTest.java:12:   All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\testInterface.java:6:  Package name contains upper case characters
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\testInterface.java:12: The interface name 'testInterface' doesn't match '[A-Z][a-zA-Z0-9]*'
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\testInterface.java:15: Unnecessary modifier 'public' on method 'getMentioningBooksWithAuthorTest': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\testInterface.java:17: Unnecessary modifier 'public' on method 'mentionedCitiesTest': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\testInterface.java:19: Unnecessary modifier 'public' on method 'getBooksAndCitiesTest': the method is declared in an interface type
+C:\Users\Mart_\OneDrive\Dokumenter\NetBeansProjects\Gutenberg-book-project\src\test\java\performanceTest\testInterface.java:21: Unnecessary modifier 'public' on method 'getBooksMentioningRange': the method is declared in an interface type
