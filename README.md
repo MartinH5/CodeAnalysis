@@ -2,7 +2,7 @@
 
 ## PMD Results
 
-PMD er en statisk code analyzer. Den finder hurtigt en masse foreslag til forbedringer. Den fandt blandt andet en lang række unused imports samt variabler. Den brokkede sig i øvrigt over anvendelsen af ArrayList som import og foreslog i stedet at bruge implementation af interfacet. Den gennemgik manglende exception håndtering osv. Kort sagt er det en statisk test analyzer, der bruges til at forbedre effektiviteten og læsbarheden.
+PMD er en statisk code analyzer. Den finder hurtigt en masse foreslag til forbedringer. Den fandt blandt andet en lang række unused imports samt variabler. Den brokkede sig i øvrigt over anvendelsen af ArrayList som import og foreslog i stedet at bruge implementation af interfacet. Den gennemgik manglende exception håndtering osv. Kort sagt er det en statisk test analyzer, der bruges til at forbedre effektiviteten og læsbarheden. (Koden kan findes i dette repo, som "Gutenberg Project") 
 
 10 ting, der bør checkes: 
 
